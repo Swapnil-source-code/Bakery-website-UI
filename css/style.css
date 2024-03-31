@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Teko:300,400&display=swap');
+
+*{
+margin: 0px;
+padding: 0px;
+}
+html{
+scroll-behavior: smooth;
+}
+
+/*********** Section One CSS ***********/
+
+.one{
+	height: 100%;
+	width: 100%;
+	background-image: url('../images/header-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.overlay_1 {
+  height: 100vh;
+  background-color: rgba(16, 29, 44, .90);
+}
+
+.navbar img{
+	margin-left: 50px;
+}
+
+.bg-light {
+  background-color: transparent!important;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+	font-weight: 600;
+	color: white;
+  padding-right: .5rem;
+  padding-left: 3.5rem;
+}
+.navbar .navbar-collapse .navbar-nav .nav-link:hover {
+	color: #c69963;
+}
+.hero-text{
+	top: 80%;
+	position: relative;
+}
+
+.hero-text h1{
+	font-family: 'Niconne', cursive; 
+	font-size: 100px;
+	color: #c69963;
+
+}
+.hero-text p{
+	color: white;
+}
+
+.btn-outline-secondary {
+  color: #c69963;
+  border-color: #c69963;
+}
+
+.hero-text .w{
+	width: 10%;
+}
+
+/*********** Section Two CSS ***********/
+
+.two{
+	height: 100%;
+	margin: 100px 0px;
+}
+
+.side-text{
+	width: 98%;
+	margin-top: 100px;
+}
+.side-text h4{
+	font-family: 'Teko', sans-serif;
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.side-text h1{
+	font-family: 'Niconne', cursive; 
+	font-size: 50px;
+	color: #c69963;
+}
+.side-text p{
+	font-size: 16px;
+	padding-top: 15px;
+	font-weight: 500;
+}
+
+.side-text .w{
+	margin-top: 10px;
+	width: 25%;
+}
+
+/*********** Section Three CSS ***********/
+
+.three{
+	background-color: rgb(16, 29, 44);
+}
+
+.content1,.content2,.content3{
+
+	margin-top: 75px;
+}
+
+.three .fa{
+	color: #c69963;
+}
+
+.three h1{
+	font-family: 'Teko', sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	color: white;
+	text-transform: uppercase;
+
+}
+
+.three p,address{
+	color: white;
+}
+
+hr{
+	border-top: 1px solid rgba(255, 255, 255, .25);
+}
+
+/*********** Section Menu CSS ***********/
+
+.menu-text{
+	margin-bottom: 5%;
+}
+
+.menu-text p{
+	font-family: 'Teko', sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	color: white;
+	text-transform: uppercase;
+}
+
+.menu-text h2{
+	font-family: 'Niconne', cursive; 
+	font-size: 50px;
+	color: #c69963;
+}
+
+.menu{
+	background-color: rgb(16, 29, 44);
+	padding-bottom: 10%;
+}
+
+.menu .col-md-2{
+	padding-right: 0px;
+    padding-left: 0px;
+}
+
+.point-right,.point-left{
+	display: flex;
+	background-color: #ffff;
+	position: relative
+}
+
+.food{
+	overflow: hidden;
+}
+.food img{
+	transition: all 1.5s ease;
+}
+.food:hover img{
+	transform: scale(1.5);
+}
+
+.menu .detail{
+	padding: 50px 10px;
+	margin : auto;	
+}
+
+.point-right::before,.point-left::before{
+  content: "";
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-color: inherit;
+	top: -12px;
+	left: 50%;
+	transform: translateX(0, -50%) rotate(45deg);
+	z-index: 1;
+}
+
+/*********** Section Four CSS ***********/
+
+.four .chef-head h4{
+	font-family: 'Teko', sans-serif;
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.four .chef-head h2{
+	font-family: 'Niconne', cursive; 
+	font-size: 50px;
+	color: #c69963;
+}
+
+.card-body h1{
+	font-family: 'Teko', sans-serif;
+	font-size: 25px;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+
+
+.card-body h6{
+	font-size: 16px;
+	color: #c69963;
+}
+
+/*********** Section five CSS ***********/
+
+.five{
+	background-color: rgb(16, 29, 44);
+	padding-bottom: 50px;
+}
+
+.five .contact h2{
+	font-family: 'Niconne', cursive; 
+	font-size: 50px;
+	color: #c69963;
+}
+form{
+	margin-top: 25px;
+}
+.form-control {
+	width: 50%;
+	height: calc(1.5em + 0.75rem + 7px);
+}
+.contact input{
+	color: #ffff;
+	background-color: transparent;
+	outline: none;
+	box-shadow: none;
+	box-sizing: border-box;
+	border: 2px solid #c69963;
+	border-radius: 25px;
+}
+.contact textarea{
+	color: #ffff;
+	background-color: transparent;
+	outline: none;
+	box-shadow: none;
+	box-sizing: border-box;
+	border: 2px solid #c69963;
+	border-radius: 35px;
+
+}
+
+.comman-btn {
+	color: #c69963;
+	border-radius: 25px;
+	padding: 10px 30px;
+	background: transparent;
+	outline: none;
+	border: 2px solid #c69963;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+/*********** Section six CSS ***********/
+
+.six{
+	background-color: #F8F9F7;
+}
+.gift-text h2{
+  font-family: 'Niconne', cursive;
+  font-size: 50px;
+  color: #c69963;
+}
+
+.gift-image img{
+	max-width: 70%;
+	height: auto;
+}
+
+.shop-now button:hover {
+	color: white;
+	background-color: #c69963;
+}
+ .shop-now button:hover {
+	transition: all 0.50s ease;
+}
+
+
+/*********** Footer section CSS ***********/
+
+footer {
+	background-color: rgb(16, 29, 44);
+}
+
+.f-link-block ul li a{
+  text-decoration: none;
+	list-style: none;
+	color: white;
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-family: 'Teko', sans-serif;
+}
+.f-link-block ul li {
+	list-style: none;
+}
+.social-media i{
+	padding: 10px;
+}
+.fa{
+	color: white;
+}
+
+/*********** Media Query For Mobile Responsive ***********/
+
+@media (min-width: 1200px) { 
+
+	.point-right::before,
+	.point-left::before{
+		display: block;
+		top: 50%;
+		left: initial;
+		transform: translate(0, -50%) rotate(45deg);
+	}
+
+	.point-left::before{
+		left: -15px;
+	}
+
+	.point-right::before{
+		right: -15px;
+	}
+
+} 
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+.point-right::before,.point-left::before{
+	display: block;
+	top: 50%;
+	left: initial;
+	transform: translate(0, -50%) rotate(45deg);
+	}
+
+.point-left::before{
+	left: -11px;
+	}
+
+.point-right::before{
+	right: -11px;
+	}
+
+.hero-text .w {
+  width: 15%;
+}
+
+.side-text {
+  width: 100%;
+  margin-top: 10px;
+}
+.side-text p {
+  font-size: 14px;
+}
+
+.side-text .w {
+  margin-top: 10px;
+  width: 35%;
+}
+
+}
+
+
+@media (max-width: 575px) { 
+
+.navbar-toggler {
+	padding: 0.1rem 0.5rem;
+  background-color: #c69963;
+}	
+.navbar img {
+  margin-left: 30px;
+  max-width: 55%;
+}
+.hero-text h1{
+	font-size: 80px;
+}
+.hero-text{
+	top: 50%;
+}
+
+.hero-text .w {
+  width: 35%;
+}
+
+.side-text {
+  width: 98%;
+  margin-top: 0px;
+}
+.side-text p {
+  font-size: 15px;
+}
+
+.side-text .w {
+  margin-top: 10px;
+  width: 40%;
+}
+
+.side-image img{
+  margin-top: 25px;
+}
+.col-md-2{
+	background-color: #ffff;
+}
+
+.point-right::before,.point-left::before{
+  transform: rotate(45deg);
+}
+
+.main {
+	display: flex;
+	flex-direction:column-reverse;
+}
+
+.form-control {
+	width: 95%;
+	height: calc(1.5em + 0.75rem + 5px);
+}
+
+.gift-image {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.shop-now button{
+	margin-top: 40px;
+}
+
+.partner-image {
+	display: flex;
+	flex-wrap: wrap;
+}
+.f-link-block{
+	margin-left: 30px;
+}
+.social-media,.footer-logo{
+  display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } 
+
+*/
